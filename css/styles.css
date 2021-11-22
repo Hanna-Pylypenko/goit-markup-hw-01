@@ -1,3 +1,11 @@
+:root {
+  --body-background: #ffffff;
+  --headline-color: #212121;
+  --text-color: #757575;
+  --section-background: #2f303a;
+  --light-section: #f5f4fa;
+  --hover-color: #2196f3;
+}
 body {
   font-family: Roboto, sans-serif;
   color: var(--text-color);
@@ -12,14 +20,7 @@ body {
 .portfolio-body {
   height: 1880px;
 }
-:root {
-  --body-background: #ffffff;
-  --headline-color: #212121;
-  --text-color: #757575;
-  --section-background: #2f303a;
-  --light-section: #f5f4fa;
-  --hover-color: #2196f3;
-}
+
 section,
 header,
 footer {
