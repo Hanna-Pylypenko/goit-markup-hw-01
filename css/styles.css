@@ -63,7 +63,7 @@ button:focus {
   height: 16px;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -115,12 +115,12 @@ a:active {
   background: var(--section-background);
   height: 600px;
   padding-top: 200px;
+  letter-spacing: 0.06em;
 }
 .service-ordering-title {
   font-size: 44px;
   line-height: 1.4;
   text-align: center;
-  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--body-background);
 }
@@ -129,13 +129,15 @@ a:active {
   height: 50px;
   left: 700px;
   top: 430px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
   background: var(--hover-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   align-items: center;
   text-align: center;
   margin-left: 500px;
-  font-size: 16px;
 }
 
 .nav li,
@@ -157,8 +159,13 @@ a:active {
 .values h3 {
   text-transform: uppercase;
   size: 14px;
-
-  height: 16px;
+  letter-spacing: 0.03em;
+  height: 1.2;
+}
+.values p {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .centered-title {
@@ -181,14 +188,28 @@ a:active {
   text-align: center;
   margin-right: 14px;
 }
-
+.our-team p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.our-team h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
 footer {
   background: var(--section-background);
   height: 252px;
   padding-top: 50px;
 }
 footer li a {
-  color: var(--text-color);
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
 
@@ -201,7 +222,19 @@ footer li a {
   box-sizing: border-box;
   margin-top: 30px;
 }
-
+.portfolio-items h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+.porfolio-items p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.9;
+}
 address {
   width: 231px;
   height: 21px;
@@ -222,9 +255,10 @@ address {
   height: 38px;
   background: var(--light-section);
   box-shadow: none;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.6;
   letter-spacing: 0.03em;
   color: var(--headline-color);
 }
