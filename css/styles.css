@@ -210,6 +210,12 @@ footer {
 footer li a {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.03em;
 }
 
 .porfolio-items li {
