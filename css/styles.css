@@ -125,11 +125,9 @@ a:active {
   color: var(--body-background);
 }
 .service-ordering-button {
-  width: 200px;
-  height: 50px;
   left: 700px;
   top: 430px;
-  font-family: "Roboto";
+  font-family: inherit;
   font-size: 16px;
   font-weight: 700;
   background: var(--hover-color);
@@ -138,6 +136,7 @@ a:active {
   align-items: center;
   text-align: center;
   margin-left: 500px;
+  color: var(--body-background);
 }
 
 .nav li,
@@ -156,9 +155,9 @@ a:active {
   margin-right: 30 px;
   margin-bottom: 94px;
 }
-.values h3 {
+.values h2 {
   text-transform: uppercase;
-  size: 14px;
+  font-size: 14px;
   letter-spacing: 0.03em;
   height: 1.2;
 }
@@ -231,7 +230,7 @@ footer li a {
 }
 .porfolio-items p {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
 }
@@ -251,8 +250,6 @@ address {
   text-align: center;
 }
 .filter-item {
-  width: 128px;
-  height: 38px;
   background: var(--light-section);
   box-shadow: none;
   font-family: inherit;
